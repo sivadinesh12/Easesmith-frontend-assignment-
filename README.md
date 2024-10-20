@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Plant Nursery Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Plant Nursery Landing Page**, developed using React, which showcases a collection of plants and pots along with a nursery section. Users can view details, search for specific plants, and add items to their cart.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Components](#components)
+- [Customization](#customization)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up and run the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/plant-nursery.gi
+   ```
+2. **Navigate to Project Director**:
+   ```bash
+   cd easesmith-frontend-assignment
+   ```
+3. **Install Dependencies**:
+   ```bash
+   npm start
+   ```
+4. **Open the browser and visit HTTP://Localhost:3000 to view the landing page **:
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Features
+- Search functionality to filter plants.
+- Pagination for displaying products.
+- Add items to the cart.
+- Display modal for adding products to the cart.
+- Plant and nursery sections with a description of products.
+- Sort products based on price, rating, and more.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+### Search for Products
+Users can type in the search bar to filter and find specific plants by name. The search input dynamically filters plants as you type.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Add to Cart
+Users can click on a product to open a modal, showing detailed information, and can add the product to the cart. Once added, the product will appear in the cart, which is accessible through the header.
 
-### `npm run eject`
+## Pagination
+The products are displayed in a paginated format, allowing users to navigate through different pages of the product listing.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Filtering & Sorting
+- Sort by Price: Allows users to sort products by their price.
+- Sort by Rating: Enables sorting based on customer ratings (mock data).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Components
+- Header: Contains navigation links and cart access.
+- PlantAndPotsItem: Displays the plants and pots items.
+- NurseryItem: Renders nursery items with images and descriptions.
+- ProductItem: Renders each individual product in the product listing section.
+- Modal: Shows product details and allows adding items to the cart.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Customization
+### Adding More Products
+To add more products, modify the MockData.js file in the components/ folder. Simply add more items to the MockData array.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Changing Images
+Replace the images inside the assets/images/ folder to update product images or icons.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Styling
+To update styles, modify the .css files in the styles/ folder.
