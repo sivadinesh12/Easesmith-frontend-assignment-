@@ -1,0 +1,17 @@
+.nursery-item {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.nursery-item img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px; }
+
+.nursery-item p {
+  margin-top: 8px; 
+  font-size: 14px;
+  color: #333; 
+}

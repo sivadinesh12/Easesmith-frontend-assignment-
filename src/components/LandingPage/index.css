@@ -1,0 +1,86 @@
+.offer-bg {
+  background-color: #165315;
+}
+.input {
+  border-bottom: #000000 1px solid;
+  outline: none;
+  padding: 1px;
+  padding-left: 10px;
+}
+.search-icon {
+  border-bottom: #000000 1px solid;
+  padding-bottom: 1px;
+}
+.plant-ico {
+  border-bottom: #000000 1px solid;
+}
+.nursery-heading {
+  font-weight: 600;
+  font-size: 24px;
+}
+.nursery-list {
+  overflow-x: auto;
+  border: none;
+}
+.nursery-list::-webkit-scrollbar {
+  height: 0;
+}
+.filter-container{
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(95, 100%, 95%);display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 715px;
+}
+
+.product-listing-section{
+  height: 100%;
+  padding: 15px;
+}
+
+.filter-item{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  height: 40px;
+  border-bottom: #A8A8A8 1px  solid;
+  align-items: center;
+  color: #6E6E6E;
+}
+.cards-section{
+  padding: 15px;
+}
+.listing-container{
+  padding: 15px;
+  overflow: auto;
+  height: 715px;
+}
+.listing-container::-webkit-scrollbar{
+  width: 0px;
+}
+.footer{
+  height: 100%;
+  padding: 15px;
+  background-color: #F0FFE5;
+}
+.hide{
+  display: none;
+}
+
+.modal{
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.modal-item{
+  width: 50%;
+}

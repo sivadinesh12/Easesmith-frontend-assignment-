@@ -1,0 +1,20 @@
+.logo-text {
+  color: #0f4811;
+  font-size: 25px;
+}
+.nav-bar{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    left: 91.5%;
+    background-color:#f3a939;
+    color: white;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+}

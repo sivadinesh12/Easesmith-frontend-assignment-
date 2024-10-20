@@ -1,0 +1,36 @@
+.product-list-item{
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.plant{
+    width: 194px;
+    height: 320px;
+}
+.img-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.view-product{
+    background-color: #165315;
+    color: #ffffff;
+
+    width: 100%;text-align: center;
+    padding: 6px;
+}
+
+.description{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.mrp{
+    color: #5E5A5AB2;
+    text-decoration: line-through;
+}

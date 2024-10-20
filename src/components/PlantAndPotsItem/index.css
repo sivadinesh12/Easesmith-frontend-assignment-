@@ -1,0 +1,16 @@
+.plants-selected {
+  background-color: #165315;
+  color: #ffffff;
+  border: none;
+  width: 114px;
+  height: 34px;
+  transition: all 0.3s ease;
+}
+
+.plants-unSelected {
+  border: #0000004d 1px solid;
+  color: #0000004d;
+  width: 114px;
+  height: 34px;
+  transition: all 0.3s ease;
+}

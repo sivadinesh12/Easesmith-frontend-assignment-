@@ -1,0 +1,9 @@
+.nav-item {
+  font-size: 16px;
+  font-weight: 500;
+}
+.selected {
+  color: #f3a939;
+  border-bottom: #f3a939 2px solid;
+  transition: all 0.3s ease;
+}
